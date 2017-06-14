@@ -1,0 +1,35 @@
+<ScrollView android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        tools:context="mr.rad.kg.kyrgyzstan.GerbFragment">
+
+        <ImageView
+            android:id="@+id/gerbImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gerb"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/gerbImg"
+            android:id="@+id/gerbTxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Герб Кыргызстана — официальный государственный символ Киргизской Республики; был разработан А. Абдраевым и С. Дубанаевым и утверждён 14 января 1994 года постановлением Жогорку Кенеша (Верховного совета)." />
+
+        <TextView
+            android:id="@+id/gerbTxt2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/gerbTxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="На гербе изображён сокол кречет «Ак-шумкар» Манаса с распростёртыми крыльями, оберегая собой кыргызские земли, что символизирует свободу страны. Также изображена жемчужина Киргизии — озеро Иссык-Куль, окружённое высокими скалистыми хребтами Ала-Тоо. С двух сторон композицию обрамляют колосья пшеницы и белые коробочки хлопка — знак достатка." />
+
+    </RelativeLayout>
+</ScrollView>

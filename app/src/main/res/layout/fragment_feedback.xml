@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="mr.rad.kg.kyrgyzstan.FeedbackFragment">
+
+  <EditText
+      android:id="@+id/editText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Email"
+      android:layout_marginTop="20dp"
+      android:ems="10"
+      android:inputType="textEmailAddress" />
+
+  <EditText
+      android:id="@+id/editText2"
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:layout_marginTop="20dp"
+      android:hint="Сообщение"
+      android:layout_below="@+id/editText"
+      android:ems="10"
+      android:inputType="textMultiLine" />
+
+  <Button
+      android:id="@+id/send"
+      android:text="Отправить"
+      android:layout_marginTop="20dp"
+      android:layout_below="@+id/editText2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+</RelativeLayout>

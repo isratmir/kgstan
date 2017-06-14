@@ -1,0 +1,44 @@
+<ScrollView android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    tools:context="mr.rad.kg.kyrgyzstan.FlagFragment">
+
+
+    <ImageView
+        android:id="@+id/flagImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flag"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/flagImg"
+        android:id="@+id/flagTxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Государственный флаг Кыргызской Республики, согласно его официальному описанию, представляет собой полотнище красного цвета, в центре которого размещён круглый солнечный диск с сорока равномерно расходящимися лучами золотистого цвета. Внутри солнечного диска красным цветом изображён тюндюк киргизской юрты. Ширина флага составляет три пятых его длины. Диаметр лучистого диска составляет три пятых ширины флага. Соотношение диаметров солнечного и лучистых дисков — три к пяти. Диаметр тюндюка составляет половину диаметра лучистого диска." />
+
+    <TextView
+        android:id="@+id/flagTxt2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/flagTxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Красная одноцветность флага символизирует доблесть и смелость, золотое Солнце, купающееся в своих лучах, олицетворяет покой и богатство, а тундук — символ отчего дома в широком понимании этого выражения и мира как вселенной. 40 лучей, объединённых в круг, означают объединение 40 древних племён в единый Кыргызстан. Тундук символизирует единство народов, проживающих в стране. Красный цвет флага был цветом флага великодушного Манаса." />
+
+    <TextView
+        android:id="@+id/flagTxt3"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/flagTxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25 марта 2011 года в Парламенте Киргизии по предложению депутата от фракции «Ар-Намыс» Абдрахмана Маматалиева была образована комиссия по изменению государственного флага и гимна. Этот вопрос уже поднимался в 2007 году в связи с «искаженным изображением тюндюка»." />
+
+</RelativeLayout>
+</ScrollView>

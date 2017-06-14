@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/total"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Общая информация" />
+        <item
+            android:id="@+id/oblast"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Области" />
+        <item
+            android:id="@+id/bishkek"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Столица" />
+        <item
+            android:id="@+id/flag"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Флаг" />
+        <item
+            android:id="@+id/gerb"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Герб" />
+        <item
+            android:id="@+id/himn"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Гимн" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Отправить сообщение" />
+    </group>
+
+</menu>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Kyrgyzstan</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="oblast">
+        <item>Чуйская область</item>
+        <item>Иссык-Кульская область</item>
+        <item>Таласская область</item>
+        <item>Нарынская область</item>
+        <item>Джалал-Абадская область</item>
+        <item>Ошская область</item>
+        <item>Баткенская область</item>
+    </string-array>
+</resources>

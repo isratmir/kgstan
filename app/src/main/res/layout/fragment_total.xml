@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="mr.rad.kg.kyrgyzstan.TotalFragment">
+
+
+    <ImageView
+        android:id="@+id/totalMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/map" />
+
+    <TextView
+        android:layout_below="@+id/totalMap"
+        android:layout_marginTop="20dp"
+        android:id="@+id/totalText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кыргыз Республикасы, Кыргызста́н — страна в Центральной Азии, государство в западной и центральной части горного массива Тянь-Шань. Граничит на севере с Казахстаном, на западе — с Узбекистаном, на юго-западе — с Таджикистаном, на юго-востоке и востоке — с Китайской Народной Республикой. Столица и самый большой город — Бишкек." />
+
+    <TextView
+        android:id="@+id/totalText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="По площади территории страна занимает 85-е место среди государств мира (199 951 км²[9]), 7-е место среди стран СНГ. Расположение: от Ферганской долины на западе до центральной части Тянь-Шаня с востока, от Казахстана с севера до северной части Памира с юга. Население по оценке на 26 ноября 2015 достигло 6 млн чел.[10], сто одиннадцатое место в мире по численности населения."
+        android:layout_below="@+id/totalText1" />
+
+</RelativeLayout>

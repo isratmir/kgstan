@@ -1,0 +1,75 @@
+<ScrollView android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    tools:context="mr.rad.kg.kyrgyzstan.GimnFragment">
+
+    <SurfaceView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+
+        android:background="@drawable/play"
+        android:layout_below="@+id/video"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/stop"
+        android:layout_below="@+id/video"
+        android:layout_toRightOf="@+id/play"
+        android:layout_toEndOf="@+id/play"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp" />
+
+    <TextView
+        android:id="@+id/himninfo"
+        android:layout_below="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Госуда́рственный гимн Кыргызской Республики (кирг. Кыргыз Республикасынын Мамлекеттик Гимни) — один из государственных символов Киргизии, наряду с флагом и гербом. Гимн утвержден постановлением Верховного Совета Киргизской Республики 18 декабря 1992 года."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ак мөңгүлүү аска зоолор, талаалар,\n
+Элибиздин жаны менен барабар.\n
+Сансыз кылым Ала-Тоосун мекендеп,\n
+Сактап келди биздин ата-бабалар.\n
+Кайырмасы:\n
+Алгалай бер, кыргыз эл,\n
+Азаттыктын жолунда.\n
+Өркүндөй бер, өсө бер,\n
+Өз тагдырың колуңда\n
+Байыртадан бүткөн мүнөз элиме,\n
+Досторуна даяр дилин берүүгө.\n
+Бул ынтымак эл бирдигин ширетип,\n
+Бейкуттукту берет кыргыз жерине.\n
+Кайырмасы:\n
+Аткарылып элдин үмүт, тилеги,\n
+Желбиреди эркиндиктин желеги.\n
+Бизге жеткен ата салтын, мурасын,\n
+Ыйык сактап урпактарга берели.\n
+Кайырмасы:"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/himninfo"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+</ScrollView>

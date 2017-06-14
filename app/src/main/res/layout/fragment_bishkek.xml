@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/bishkekLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bishkek"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/bi1"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/bishkekLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Бишке́к (кирг. Бишкек) — столица Кыргызстана и крупнейший город страны. Составляет особую административную единицу и является городом республиканского подчинения. Старые названия — Пишпек, Фрунзе (назван в честь М. В. Фрунзе)." />
+
+        <TextView
+            android:id="@+id/bi2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/bi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Население — постоянное 965,9 тыс., наличное население 995,7 тыс. жителей (на 1 января 2017 года[6])." />
+
+        <TextView
+            android:id="@+id/bi3"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/bi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Город расположен на севере Киргизии, в Чуйской долине, у предгорий Тянь-Шаня, в 40 км севернее Киргизского хребта на высоте 700—900 м над уровнем моря, в 25 км от границы с Казахстаном. Территория города составляет 127 км²[1]." />
+
+        <ImageView
+            android:id="@+id/biImg1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/bi3"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bishkek1" />
+
+        <ImageView
+            android:id="@+id/biImg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/biImg1"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bishkek2" />
+
+    </RelativeLayout>
+</ScrollView>
