@@ -13,6 +13,7 @@ public class RegionDetailsContract {
     public static class RegionDetailsEntry implements BaseColumns{
         public static final String TABLE_NAME = "region_details";
         public static final String COLUMN_ID = "_id";
+        public static final String COLUMN_IMAGE = "image";
         public static final String COLUMN_DESCRIPTION = "description";
         public static final String COLUMN_REGIONID = "region_id";
     }

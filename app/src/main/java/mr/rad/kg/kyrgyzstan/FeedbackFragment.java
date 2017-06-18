@@ -1,6 +1,7 @@
 package mr.rad.kg.kyrgyzstan;
 
 
+import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -25,6 +26,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class FeedbackFragment extends Fragment {
 
     View view;
+    ProgressDialog progressDialog;
 
     public FeedbackFragment() {
         // Required empty public constructor
@@ -42,6 +44,8 @@ public class FeedbackFragment extends Fragment {
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                progressDialog = ProgressDialog.show(getContext(), "Отправка", "Сообщение отправляется", true);
 
                 final EditText emailEt = (EditText) view.findViewById(R.id.editText);
                 final EditText messageEt = (EditText) view.findViewById(R.id.editText2);
@@ -63,6 +67,7 @@ public class FeedbackFragment extends Fragment {
                         Toast.makeText(getContext(), "Сообщение отправлено!", Toast.LENGTH_SHORT).show();
                         emailEt.setText("");
                         messageEt.setText("");
+                        progressDialog.dismiss();
                     }
 
                     @Override
