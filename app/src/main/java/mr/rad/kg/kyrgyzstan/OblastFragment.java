@@ -53,10 +53,11 @@ public class OblastFragment extends Fragment implements AdapterView.OnItemClickL
         ListView lv = (ListView) rootView.findViewById(R.id.listView);
         OblastAdapter adapter = new OblastAdapter(getContext(), cursor);
         lv.setAdapter(adapter);
+        lv.setOnItemClickListener(this);
     }
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+        Toast.makeText(getContext(), "Position: "+position, Toast.LENGTH_SHORT).show();
     }
 }

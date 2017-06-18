@@ -48,6 +48,8 @@ public class DBHelper extends SQLiteOpenHelper {
                 +"(6,'ik','Иссык_кульская область')";
 
         db.execSQL(query);
+
+        String query2 = "";
     }
 
     @Override
