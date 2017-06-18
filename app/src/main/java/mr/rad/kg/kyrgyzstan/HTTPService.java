@@ -10,7 +10,7 @@ import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.POST;
 
 public interface HTTPService {
-    public static final String ENDPOINT = "http://sanarip.com";
+    public static final String ENDPOINT = "http://128.199.182.216";
 
     @FormUrlEncoded
     @POST("/mailer.php")
